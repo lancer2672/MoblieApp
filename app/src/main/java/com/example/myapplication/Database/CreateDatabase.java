@@ -103,4 +103,7 @@ public class CreateDatabase extends SQLiteOpenHelper {
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
 
     }
+    public SQLiteDatabase open(){
+        return this.getWritableDatabase();
+    }
 }
