@@ -69,5 +69,41 @@ public class BanAnDAO {
         }
         return banAnDTOList;
     }
+    public String LayTinhTrangBanTheoMa(int maban){
+        String tinhtrang="";
+        String query = "SELECT * FROM "+CreateDatabase.TBL_BAN + " WHERE " +CreateDatabase.TBL_BAN_MABAN+ " = '" +maban+ "' ";
+        Cursor cursor = database.rawQuery(query,null);
+        cursor.moveToFirst();
+        while (!cursor.isAfterLast()){
+            tinhtrang = cursor.getString(cursor.getColumnIndex(CreateDatabase.TBL_MON_TINHTRANG));
+            cursor.moveToNext();
+        }
 
+        return tinhtrang;
+    }
+
+    public boolean CapNhatTinhTrangBan(int maban, String tinhtrang){
+        ContentValues contentValues = new ContentValues();
+        contentValues.put(CreateDatabase.TBL_BAN_TINHTRANG,tinhtrang);
+
+        long ktra = database.update(CreateDatabase.TBL_BAN,contentValues,CreateDatabase.TBL_BAN_MABAN+ " = '"+maban+"' ",null);
+        if(ktra != 0){
+            return true;
+        }else {
+            return false;
+        }
+    }
+
+    public String LayTenBanTheoMa(int maban){
+        String tenban="";
+        String query = "SELECT * FROM "+CreateDatabase.TBL_BAN + " WHERE " +CreateDatabase.TBL_BAN_MABAN+ " = '" +maban+ "' ";
+        Cursor cursor = database.rawQuery(query,null);
+        cursor.moveToFirst();
+        while (!cursor.isAfterLast()){
+            tenban = cursor.getString(cursor.getColumnIndex(CreateDatabase.TBL_BAN_TENBAN));
+            cursor.moveToNext();
+        }
+
+        return tenban;
+    }
 }
