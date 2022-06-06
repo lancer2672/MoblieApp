@@ -6,4 +6,12 @@
     <string name="howwork">Hướng dẫn sử dụng</string>
     <string name="login">Đăng nhập</string>
     <string name="register">Đăng ký</string>
+    <string name="create_acc">Tạo <br /> tài khoản</string>
+    <string name="enter_fullname">Họ và tên</string>
+    <string name="enter_username">Tên tài khoản</string>
+    <string name="enter_email">Email</string>
+    <string name="enter_phone">Số điện thoại</string>
+    <string name="enter_password">Mật khẩu</string>
+    <string name="btn_next">Tiếp theo</string>
+    <string name="btn_complete">Hoàn thành</string>
 </resources>
