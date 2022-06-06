@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="function">Quản lý</string>
+    <string name="brand_name">:re Coffee Shop </string>
+    <string name="slogan">Thơm ngon đến từng giọt cuối cùng</string>
+    <string name="howwork">Hướng dẫn sử dụng</string>
+    <string name="login">Đăng nhập</string>
+    <string name="register">Đăng ký</string>
 </resources>
