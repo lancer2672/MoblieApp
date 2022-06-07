@@ -14,6 +14,7 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.myapplication.R;
 import com.google.android.material.navigation.NavigationView;
@@ -28,15 +29,19 @@ public class HomeActivity extends AppCompatActivity {
     TextView TXT_menu_tennv;
     int maquyen = 0;
     SharedPreferences sharedPreferences;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home);
+        setContentView(R.layout.home_layout);
+
+        //region thuộc tính bên view
         drawerLayout = (DrawerLayout)findViewById(R.id.drawer_layout);
         navigationView = (NavigationView)findViewById(R.id.navigation_view_trangchu);
         toolbar = (androidx.appcompat.widget.Toolbar) findViewById(R.id.toolbar);
         View view = navigationView.getHeaderView(0);
         TXT_menu_tennv = (TextView) view.findViewById(R.id.txt_menu_tennv);
+        //endregion
 
         //xử lý toolbar và navigation
         setSupportActionBar(toolbar); //tạo toolbar
@@ -55,19 +60,91 @@ public class HomeActivity extends AppCompatActivity {
         drawerToggle.syncState();
         navigationView.setNavigationItemSelectedListener(this);
 
+        //Tụ động gán tên nv đăng nhập qua Extras
         Intent intent = getIntent();
         String tendn = intent.getStringExtra("tendn");
         TXT_menu_tennv.setText( "Xin chào " + tendn +" !!");
 
+        //lấy file share prefer
         sharedPreferences = getSharedPreferences("luuquyen", Context.MODE_PRIVATE);
         maquyen = sharedPreferences.getInt("maquyen",0);
 
+        //hiện thị fragment home mặc định
         fragmentManager = getSupportFragmentManager();
         FragmentTransaction tranDisplayHome = fragmentManager.beginTransaction();
         DisplayHomeFragment displayHomeFragment = new DisplayHomeFragment();
         tranDisplayHome.replace(R.id.contentView, displayHomeFragment);
         tranDisplayHome.commit();
         navigationView.setCheckedItem(R.id.nav_home);
+    }
+
+    @Override
+    public boolean onNavigationItemSelected(MenuItem item) {
+        int id = item.getItemId();
+        switch (id){
+            case R.id.nav_home:
+                //hiển thị tương ứng trên navigation
+                FragmentTransaction tranDisplayHome = fragmentManager.beginTransaction();
+                DisplayHomeFragment displayHomeFragment = new DisplayHomeFragment();
+                tranDisplayHome.replace(R.id.contentView,displayHomeFragment);
+                tranDisplayHome.commit();
+                navigationView.setCheckedItem(item.getItemId());
+                drawerLayout.closeDrawers();
+                break;
+
+            case R.id.nav_statistic:
+                //hiển thị tương ứng trên navigation
+                FragmentTransaction tranDisplayStatistic = fragmentManager.beginTransaction();
+                DisplayStatisticFragment displayStatisticFragment = new DisplayStatisticFragment();
+                tranDisplayStatistic.replace(R.id.contentView,displayStatisticFragment);
+                tranDisplayStatistic.commit();
+                navigationView.setCheckedItem(item.getItemId());
+                drawerLayout.closeDrawers();
+                break;
+
+            case R.id.nav_table:
+                //hiển thị tương ứng trên navigation
+                FragmentTransaction tranDisplayTable = fragmentManager.beginTransaction();
+                DisplayTableFragment displayTableFragment = new DisplayTableFragment();
+                tranDisplayTable.replace(R.id.contentView,displayTableFragment);
+                tranDisplayTable.commit();
+                navigationView.setCheckedItem(item.getItemId());
+                drawerLayout.closeDrawers();
+                break;
+
+            case R.id.nav_category:
+                //hiển thị tương ứng trên navigation
+                FragmentTransaction tranDisplayMenu = fragmentManager.beginTransaction();
+                DisplayCategoryFragment displayCategoryFragment = new DisplayCategoryFragment();
+                tranDisplayMenu.replace(R.id.contentView, displayCategoryFragment);
+                tranDisplayMenu.commit();
+                navigationView.setCheckedItem(item.getItemId());
+                drawerLayout.closeDrawers();
+
+                break;
+
+            case R.id.nav_staff:
+                if(maquyen == 1){
+                    //hiển thị tương ứng trên navigation
+                    FragmentTransaction tranDisplayStaff = fragmentManager.beginTransaction();
+                    DisplayStaffFragment displayStaffFragment = new DisplayStaffFragment();
+                    tranDisplayStaff.replace(R.id.contentView,displayStaffFragment);
+                    tranDisplayStaff.commit();
+                    navigationView.setCheckedItem(item.getItemId());
+                    drawerLayout.closeDrawers();
+                }else {
+                    Toast.makeText(getApplicationContext(),"Bạn không có quyền truy cập",Toast.LENGTH_SHORT).show();
+                }
+
+                break;
+
+            case R.id.nav_logout:
+                //gọi activity ra trang welcome
+                Intent intent = new Intent(getApplicationContext(),WelcomeActivity.class);
+                startActivity(intent);
+                break;
+        }
+        return false;
     }
 
 }
