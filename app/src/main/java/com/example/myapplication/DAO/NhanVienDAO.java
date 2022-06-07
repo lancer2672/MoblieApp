@@ -12,6 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class NhanVienDAO {
+
     SQLiteDatabase database;
     public NhanVienDAO(Context context){
         CreateDatabase createDatabase = new CreateDatabase(context);
@@ -129,7 +130,7 @@ public class NhanVienDAO {
 
     public int LayQuyenNV(int manv){
         int maquyen = 0;
-        String query = "SELECT * FROM "+ CreateDatabase.TBL_NHANVIEN+" WHERE "+CreateDatabase.TBL_NHANVIEN_MANV+" = "+manv;
+        String query = "SELECT * FROM "+CreateDatabase.TBL_NHANVIEN+" WHERE "+CreateDatabase.TBL_NHANVIEN_MANV+" = "+manv;
         Cursor cursor = database.rawQuery(query,null);
         cursor.moveToFirst();
         while (!cursor.isAfterLast()){
@@ -139,5 +140,6 @@ public class NhanVienDAO {
         }
         return maquyen;
     }
+
 
 }
