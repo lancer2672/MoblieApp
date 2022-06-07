@@ -3,14 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/MoblieApp/app/src/main/res/drawable/ic_baseline_person_pin_32.xml" value="0.1" />
         <entry key="..\:/MoblieApp/app/src/main/res/font/font.xml" value="0.12962962962962962" />
         <entry key="..\:/MoblieApp/app/src/main/res/layout/activity_home.xml" value="0.1" />
         <entry key="..\:/MoblieApp/app/src/main/res/layout/activity_main.xml" value="0.17916666666666667" />
-        <entry key="..\:/SourceCode/MoblieApp/app/src/main/res/layout/activity_home.xml" value="0.22826086956521738" />
-        <entry key="..\:/SourceCode/MoblieApp/app/src/main/res/layout/login_layout.xml" value="0.22826086956521738" />
-        <entry key="..\:/SourceCode/MoblieApp/app/src/main/res/layout/register2nd_layout.xml" value="0.22826086956521738" />
-        <entry key="..\:/SourceCode/MoblieApp/app/src/main/res/layout/register_layout.xml" value="0.264" />
-        <entry key="..\:/SourceCode/MoblieApp/app/src/main/res/layout/welcome_layout.xml" value="0.25" />
+        <entry key="..\:/MoblieApp/app/src/main/res/layout/home_layout.xml" value="0.1" />
+        <entry key="..\:/MoblieApp/app/src/main/res/layout/menu_navigation_header.xml" value="0.1" />
       </map>
     </option>
   </component>
