@@ -14,4 +14,5 @@
     <string name="enter_password">Mật khẩu</string>
     <string name="btn_next">Tiếp theo</string>
     <string name="btn_complete">Hoàn thành</string>
+    <string name="logintittle">Đăng <br /> nhập</string>
 </resources>
