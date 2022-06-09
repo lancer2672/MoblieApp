@@ -3,13 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/MoblieApp/app/src/main/res/layout/home_layout.xml" value="0.25" />
         <entry key="..\:/MoblieApp/app/src/main/res/drawable/ic_baseline_person_pin_32.xml" value="0.1" />
         <entry key="..\:/MoblieApp/app/src/main/res/font/font.xml" value="0.12962962962962962" />
         <entry key="..\:/MoblieApp/app/src/main/res/layout/activity_home.xml" value="0.1" />
         <entry key="..\:/MoblieApp/app/src/main/res/layout/activity_main.xml" value="0.17916666666666667" />
         <entry key="..\:/MoblieApp/app/src/main/res/layout/home_layout.xml" value="0.1" />
         <entry key="..\:/MoblieApp/app/src/main/res/layout/menu_navigation_header.xml" value="0.1" />
+        <entry key="..\:/Users/nosc/StudioProjects/MoblieApp/app/src/main/res/layout/custom_layout_displaycategory.xml" value="0.1" />
+        <entry key="..\:/Users/nosc/StudioProjects/MoblieApp/app/src/main/res/layout/custom_layout_displaystatistic.xml" value="0.2076923076923077" />
       </map>
     </option>
   </component>
