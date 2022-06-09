@@ -9,6 +9,17 @@
         <entry key="..\:/MoblieApp/app/src/main/res/layout/activity_main.xml" value="0.17916666666666667" />
         <entry key="..\:/MoblieApp/app/src/main/res/layout/home_layout.xml" value="0.1" />
         <entry key="..\:/MoblieApp/app/src/main/res/layout/menu_navigation_header.xml" value="0.1" />
+        <entry key="..\:/Users/nosc/StudioProjects/MoblieApp/app/src/main/res/drawable/corner_border_black.xml" value="0.2295" />
+        <entry key="..\:/Users/nosc/StudioProjects/MoblieApp/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.1" />
+        <entry key="..\:/Users/nosc/StudioProjects/MoblieApp/app/src/main/res/font/muli.xml" value="0.1" />
+        <entry key="..\:/Users/nosc/StudioProjects/MoblieApp/app/src/main/res/font/muli_black.xml" value="0.23005487547488393" />
+        <entry key="..\:/Users/nosc/StudioProjects/MoblieApp/app/src/main/res/layout/custom_layout_paymentmenu.xml" value="0.15956482320942883" />
+        <entry key="..\:/Users/nosc/StudioProjects/MoblieApp/app/src/main/res/layout/datailstatistic_layout.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/nosc/StudioProjects/MoblieApp/app/src/main/res/layout/detailstatistic_layout.xml" value="0.4" />
+        <!--<entry key="..\:/Users/nosc/StudioProjects/MoblieApp/app/src/main/res/layout/home_layout.xml" value="0.11302083333333333" />-->
+        <entry key="..\:/Users/nosc/StudioProjects/MoblieApp/app/src/main/res/layout/login_layout.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/nosc/StudioProjects/MoblieApp/app/src/main/res/layout/register2nd_layout.xml" value="0.1" />
+        <entry key="..\:/Users/nosc/StudioProjects/MoblieApp/app/src/main/res/layout/welcome_layout.xml" value="0.1" />
       </map>
     </option>
   </component>
