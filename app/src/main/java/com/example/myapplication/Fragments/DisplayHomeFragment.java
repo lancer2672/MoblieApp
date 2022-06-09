@@ -13,6 +13,13 @@ import androidx.fragment.app.FragmentTransaction;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.myapplication.Activities.HomeActivity;
+import com.example.myapplication.CustomAdapter.AdapterRecycleViewCategory;
+import com.example.myapplication.CustomAdapter.AdapterRecycleViewStatistic;
+import com.example.myapplication.DAO.DonDatDAO;
+import com.example.myapplication.DAO.LoaiMonDAO;
+import com.example.myapplication.DTO.DonDatDTO;
+import com.example.myapplication.DTO.LoaiMonDTO;
 import com.google.android.material.navigation.NavigationView;
 
 import java.text.SimpleDateFormat;
