@@ -3,11 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/MoblieApp/app/src/main/res/drawable/ic_baseline_backspace_24.xml" value="0.1165" />
+        <entry key="..\:/MoblieApp/app/src/main/res/drawable/ic_baseline_event_seat_40.xml" value="0.1165" />
+        <entry key="..\:/MoblieApp/app/src/main/res/drawable/ic_baseline_fastfood_24.xml" value="0.1165" />
+        <entry key="..\:/MoblieApp/app/src/main/res/drawable/ic_baseline_payments_24.xml" value="0.1165" />
         <entry key="..\:/MoblieApp/app/src/main/res/drawable/ic_baseline_person_pin_32.xml" value="0.1" />
         <entry key="..\:/MoblieApp/app/src/main/res/font/font.xml" value="0.12962962962962962" />
         <entry key="..\:/MoblieApp/app/src/main/res/layout/activity_home.xml" value="0.1" />
         <entry key="..\:/MoblieApp/app/src/main/res/layout/activity_main.xml" value="0.17916666666666667" />
         <entry key="..\:/MoblieApp/app/src/main/res/layout/custom_layout_displaystaff.xml" value="0.209375" />
+        <entry key="..\:/MoblieApp/app/src/main/res/layout/custom_layout_displaytable.xml" value="0.209375" />
+        <entry key="..\:/MoblieApp/app/src/main/res/layout/displaystatistic_layout.xml" value="0.209375" />
         <entry key="..\:/MoblieApp/app/src/main/res/layout/home_layout.xml" value="0.1" />
         <entry key="..\:/MoblieApp/app/src/main/res/layout/menu_navigation_header.xml" value="0.1" />
         <entry key="..\:/Users/nosc/StudioProjects/MoblieApp/app/src/main/res/drawable/corner_border_black.xml" value="0.2295" />
