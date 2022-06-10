@@ -1,4 +1,4 @@
-package com.sinhvien.orderdrinkapp.Activities;
+package com.example.myapplication.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,7 +10,7 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.sinhvien.orderdrinkapp.R;
+import com.example.myapplication.R;
 
 public class SplashActivity extends AppCompatActivity {
 
