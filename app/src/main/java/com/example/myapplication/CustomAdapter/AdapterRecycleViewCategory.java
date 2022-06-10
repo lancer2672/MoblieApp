@@ -6,7 +6,6 @@ import android.graphics.BitmapFactory;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -14,11 +13,11 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.myapplication.DTO.LoaiMonDTO;
+import com.example.myapplication.R;
 
 import java.util.List;
 
-public class AdapterRecycleViewCategory extends  RecyclerView.Adapter<AdapterRecycleViewCategory.ViewHolder> {
-
+public class AdapterRecycleViewCategory extends RecyclerView.Adapter<AdapterRecycleViewCategory.ViewHolder> {
     Context context;
     int layout;
     List<LoaiMonDTO> loaiMonDTOList;
@@ -60,5 +59,4 @@ public class AdapterRecycleViewCategory extends  RecyclerView.Adapter<AdapterRec
             img_customcategory_HinhLoai = itemView.findViewById(R.id.img_customcategory_HinhLoai);
         }
     }
-
 }

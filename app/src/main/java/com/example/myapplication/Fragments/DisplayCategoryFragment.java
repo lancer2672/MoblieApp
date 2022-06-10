@@ -2,7 +2,9 @@ package com.example.myapplication.Fragments;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.ContextMenu;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -12,20 +14,27 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.GridView;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import androidx.activity.result.ActivityResult;
 import androidx.activity.result.ActivityResultCallback;
 import androidx.activity.result.ActivityResultLauncher;
 import androidx.activity.result.contract.ActivityResultContracts;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
+import com.example.myapplication.Activities.AddCategoryActivity;
+import com.example.myapplication.Activities.AddMenuActivity;
+import com.example.myapplication.Activities.AddStaffActivity;
 import com.example.myapplication.Activities.HomeActivity;
 import com.example.myapplication.CustomAdapter.AdapterDisplayCategory;
 import com.example.myapplication.DAO.LoaiMonDAO;
 import com.example.myapplication.DTO.LoaiMonDTO;
+import com.example.myapplication.R;
 
 import java.util.List;
 
@@ -111,7 +120,7 @@ public class DisplayCategoryFragment extends Fragment {
 
     //hiển thị contextmenu
     @Override
-    public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
+    public void onCreateContextMenu(ContextMenu menu,View v, ContextMenu.ContextMenuInfo menuInfo) {
         super.onCreateContextMenu(menu, v, menuInfo);
         getActivity().getMenuInflater().inflate(R.menu.edit_context_menu,menu);
     }
@@ -149,7 +158,7 @@ public class DisplayCategoryFragment extends Fragment {
 
     //khởi tạo nút thêm loại
     @Override
-    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+    public void onCreateOptionsMenu(Menu menu,MenuInflater inflater) {
         super.onCreateOptionsMenu(menu, inflater);
         MenuItem itAddCategory = menu.add(1,R.id.itAddCategory,1,R.string.addCategory);
         itAddCategory.setIcon(R.drawable.ic_baseline_add_24);

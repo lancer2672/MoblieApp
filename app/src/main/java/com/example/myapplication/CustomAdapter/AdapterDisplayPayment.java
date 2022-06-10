@@ -11,7 +11,6 @@ import android.widget.TextView;
 
 import com.example.myapplication.DTO.ThanhToanDTO;
 import com.example.myapplication.R;
-//import com.example.myapplication.R.styleable;
 
 import java.util.List;
 

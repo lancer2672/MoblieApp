@@ -12,11 +12,15 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.myapplication.DAO.BanAnDAO;
 import com.example.myapplication.DAO.NhanVienDAO;
 import com.example.myapplication.DTO.DonDatDTO;
+import com.example.myapplication.DTO.LoaiMonDTO;
 import com.example.myapplication.DTO.NhanVienDTO;
+import com.example.myapplication.R;
+
+import org.w3c.dom.Text;
 
 import java.util.List;
 
-public class AdapterRecycleViewStatistic extends RecyclerView.Adapter<AdapterRecycleViewStatistic.ViewHolder>{
+public class AdapterRecycleViewStatistic extends RecyclerView.Adapter<AdapterRecycleViewStatistic.ViewHolder> {
     Context context;
     int layout;
     List<DonDatDTO> donDatDTOList;

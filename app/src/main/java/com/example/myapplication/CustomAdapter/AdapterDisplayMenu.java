@@ -11,6 +11,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.myapplication.DTO.MonDTO;
+import com.example.myapplication.R;
+
+import org.w3c.dom.Text;
 
 import java.util.List;
 

@@ -12,18 +12,30 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.GridView;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import androidx.activity.result.ActivityResult;
 import androidx.activity.result.ActivityResultCallback;
 import androidx.activity.result.ActivityResultLauncher;
 import androidx.activity.result.contract.ActivityResultContracts;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentActivity;
 import androidx.fragment.app.FragmentManager;
 
+import com.example.myapplication.Activities.AddCategoryActivity;
+import com.example.myapplication.Activities.AddMenuActivity;
+import com.example.myapplication.Activities.AmountMenuActivity;
+import com.example.myapplication.Activities.HomeActivity;
+import com.example.myapplication.CustomAdapter.AdapterDisplayCategory;
+import com.example.myapplication.CustomAdapter.AdapterDisplayMenu;
 import com.example.myapplication.DAO.MonDAO;
 import com.example.myapplication.DTO.MonDTO;
+import com.example.myapplication.R;
 
 import java.util.List;
 
@@ -116,7 +128,7 @@ public class DisplayMenuFragment extends Fragment {
 
     //tạo 1 menu context show lựa chọn
     @Override
-    public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
+    public void onCreateContextMenu(ContextMenu menu,View v,ContextMenu.ContextMenuInfo menuInfo) {
         super.onCreateContextMenu(menu, v, menuInfo);
         getActivity().getMenuInflater().inflate(R.menu.edit_context_menu,menu);
     }
