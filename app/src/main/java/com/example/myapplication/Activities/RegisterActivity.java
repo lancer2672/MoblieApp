@@ -94,7 +94,7 @@ public class RegisterActivity extends AppCompatActivity {
         intent.putExtra(BUNDLE,bundle);
 
         startActivity(intent);
-        overridePendingTransition(anim.slide_in_right, anim.slide_out_left);
+        overridePendingTransition(anim.fade_in, anim.fade_out);
     }
 
     //region Validate field
