@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/MoblieApp/app/src/main/res/drawable/circle_drawable.xml" value="0.1" />
         <entry key="..\:/MoblieApp/app/src/main/res/drawable/corner_border_primary.xml" value="0.123" />
+        <entry key="..\:/MoblieApp/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.1" />
         <entry key="..\:/MoblieApp/app/src/main/res/drawable/ic_baseline_backspace_24.xml" value="0.1165" />
         <entry key="..\:/MoblieApp/app/src/main/res/drawable/ic_baseline_event_seat_40.xml" value="0.1165" />
         <entry key="..\:/MoblieApp/app/src/main/res/drawable/ic_baseline_fastfood_24.xml" value="0.1165" />
@@ -24,6 +26,7 @@
         <entry key="..\:/MoblieApp/app/src/main/res/layout/menu_navigation_header.xml" value="0.1" />
         <entry key="..\:/MoblieApp/app/src/main/res/layout/payment_layout.xml" value="0.209375" />
         <entry key="..\:/MoblieApp/app/src/main/res/menu/item_menu.xml" value="0.1" />
+        <entry key="..\:/MoblieApp/app/src/main/res/menu/main_menu_navigation.xml" value="0.1" />
         <entry key="..\:/Users/nosc/StudioProjects/MoblieApp/app/src/main/res/drawable/corner_border_black.xml" value="0.2295" />
         <entry key="..\:/Users/nosc/StudioProjects/MoblieApp/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.1" />
         <entry key="..\:/Users/nosc/StudioProjects/MoblieApp/app/src/main/res/font/bangers.xml" value="0.1" />
