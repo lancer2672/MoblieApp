@@ -33,7 +33,7 @@ public class ChiTietDonDatDAO {
         Cursor cursor = database.rawQuery(query,null);
         cursor.moveToFirst();
         while (!cursor.isAfterLast()){
-            soluong = cursor.getInt(cursor.nb getColumnIndex(CreateDatabase.TBL_CHITIETDONDAT_SOLUONG));
+            soluong = cursor.getInt(cursor.getColumnIndex(CreateDatabase.TBL_CHITIETDONDAT_SOLUONG));
             cursor.moveToNext();
         }
         return soluong;
