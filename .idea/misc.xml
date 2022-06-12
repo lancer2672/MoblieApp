@@ -19,11 +19,14 @@
         <entry key="..\:/MoblieApp/app/src/main/res/font/orbitron_medium.xml" value="0.12239583333333333" />
         <entry key="..\:/MoblieApp/app/src/main/res/layout/activity_home.xml" value="0.1" />
         <entry key="..\:/MoblieApp/app/src/main/res/layout/activity_main.xml" value="0.17916666666666667" />
+        <entry key="..\:/MoblieApp/app/src/main/res/layout/addstaff_layout.xml" value="0.1" />
         <entry key="..\:/MoblieApp/app/src/main/res/layout/custom_layout_displaystaff.xml" value="0.209375" />
         <entry key="..\:/MoblieApp/app/src/main/res/layout/custom_layout_displaytable.xml" value="0.209375" />
+        <entry key="..\:/MoblieApp/app/src/main/res/layout/displayhome_layout.xml" value="0.1" />
         <entry key="..\:/MoblieApp/app/src/main/res/layout/displaystatistic_layout.xml" value="0.209375" />
         <entry key="..\:/MoblieApp/app/src/main/res/layout/edittable_layout.xml" value="0.1" />
         <entry key="..\:/MoblieApp/app/src/main/res/layout/home_layout.xml" value="0.1" />
+        <entry key="..\:/MoblieApp/app/src/main/res/layout/login_layout.xml" value="0.1" />
         <entry key="..\:/MoblieApp/app/src/main/res/layout/menu_navigation_header.xml" value="0.1" />
         <entry key="..\:/MoblieApp/app/src/main/res/layout/payment_layout.xml" value="0.209375" />
         <entry key="..\:/MoblieApp/app/src/main/res/menu/item_menu.xml" value="0.1" />

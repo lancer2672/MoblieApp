@@ -16,11 +16,15 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.myapplication.Fragments.DisplayCategoryFragment;
 import com.example.myapplication.Fragments.DisplayHomeFragment;
+import com.example.myapplication.Fragments.DisplayStaffFragment;
+import com.example.myapplication.Fragments.DisplayStatisticFragment;
+import com.example.myapplication.Fragments.DisplayTableFragment;
 import com.example.myapplication.R;
 import com.google.android.material.navigation.NavigationView;
 
-public class HomeActivity extends AppCompatActivity {
+public class HomeActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
 
     MenuItem selectedFeature, selectedManager;
     DrawerLayout drawerLayout;
