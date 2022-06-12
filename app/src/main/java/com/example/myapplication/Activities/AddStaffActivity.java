@@ -1,4 +1,4 @@
-package com.sinhvien.orderdrinkapp.Activities;
+package com.example.myapplication.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -14,9 +14,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.material.textfield.TextInputLayout;
-import com.sinhvien.orderdrinkapp.DAO.NhanVienDAO;
-import com.sinhvien.orderdrinkapp.DTO.NhanVienDTO;
-import com.sinhvien.orderdrinkapp.R;
+import com.example.myapplication.DAO.NhanVienDAO;
+import com.example.myapplication.DTO.NhanVienDTO;
+import com.example.myapplication.R;
 
 import java.util.Calendar;
 import java.util.regex.Pattern;

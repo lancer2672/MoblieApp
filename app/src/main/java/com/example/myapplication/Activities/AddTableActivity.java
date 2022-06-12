@@ -1,4 +1,4 @@
-package com.sinhvien.orderdrinkapp.Activities;
+package com.example.myapplication.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,8 +9,8 @@ import android.view.View;
 import android.widget.Button;
 
 import com.google.android.material.textfield.TextInputLayout;
-import com.sinhvien.orderdrinkapp.DAO.BanAnDAO;
-import com.sinhvien.orderdrinkapp.R;
+import com.example.myapplication.DAO.BanAnDAO;
+import com.example.myapplication.R;
 
 public class AddTableActivity extends AppCompatActivity {
 

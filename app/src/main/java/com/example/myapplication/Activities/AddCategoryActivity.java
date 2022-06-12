@@ -1,4 +1,4 @@
-package com.sinhvien.orderdrinkapp.Activities;
+package com.example.myapplication.Activities;
 
 import androidx.activity.result.ActivityResult;
 import androidx.activity.result.ActivityResultCallback;
@@ -21,9 +21,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.material.textfield.TextInputLayout;
-import com.sinhvien.orderdrinkapp.DAO.LoaiMonDAO;
-import com.sinhvien.orderdrinkapp.DTO.LoaiMonDTO;
-import com.sinhvien.orderdrinkapp.R;
+import com.example.myapplication.DAO.LoaiMonDAO;
+import com.example.myapplication.DTO.LoaiMonDTO;
+import com.example.myapplication.R;
 
 import org.w3c.dom.Text;
 
