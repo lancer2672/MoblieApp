@@ -34,7 +34,7 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.List;
 
-public class AdapterDisplayTable extends BaseAdapter {
+public class AdapterDisplayTable extends BaseAdapter implements View.OnClickListener {
     Context context;
     int layout;
     List<BanAnDTO> banAnDTOList;
