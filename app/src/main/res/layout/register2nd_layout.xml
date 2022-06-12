@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
+    tools:context=".Activities.Register2ndActivity"
     android:background="@color/colorPrimary"
     android:padding="30dp"
     >
-<!--    tools:context=".Activities.Register2ndActivity"-->
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -18,11 +18,11 @@
             android:id="@+id/img_signup_back"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
+            android:src="@drawable/ic_baseline_arrow_back_24"
             android:padding="5dp"
             android:onClick="backFromRegister2nd"
             />
-<!--        android:src="@drawable/ic_baseline_arrow_back_24"-->
+
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -33,13 +33,13 @@
                 android:layout_height="wrap_content"
                 android:text="@string/create_acc"
                 android:textColor="@color/black"
-
+                android:fontFamily="@font/muli_black"
                 android:textSize="40sp"
                 android:textAllCaps="true"
                 android:layout_marginTop="20dp"
                 android:layout_centerVertical="true"
                 />
-<!--            android:fontFamily="@font/muli_black"-->
+
             <TextView
                 android:id="@+id/txt_signup2nd_text"
                 android:layout_width="wrap_content"
@@ -47,16 +47,15 @@
                 android:layout_alignParentRight="true"
                 android:layout_centerVertical="true"
                 android:layout_marginTop="20dp"
-
-
+                android:background="@drawable/circle_drawable"
+                android:fontFamily="@font/orbitron_medium"
                 android:padding="25dp"
                 android:text="2/2"
                 android:textAllCaps="true"
                 android:textColor="@color/black"
                 android:textSize="18sp"
                 />
-<!--            android:background="@drawable/circle_drawable"-->
-<!--            android:fontFamily="@font/orbitron_medium"-->
+
         </RelativeLayout>
         <LinearLayout
             android:layout_width="match_parent"

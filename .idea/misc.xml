@@ -19,14 +19,11 @@
         <entry key="..\:/MoblieApp/app/src/main/res/font/orbitron_medium.xml" value="0.12239583333333333" />
         <entry key="..\:/MoblieApp/app/src/main/res/layout/activity_home.xml" value="0.1" />
         <entry key="..\:/MoblieApp/app/src/main/res/layout/activity_main.xml" value="0.17916666666666667" />
-        <entry key="..\:/MoblieApp/app/src/main/res/layout/addstaff_layout.xml" value="0.1" />
         <entry key="..\:/MoblieApp/app/src/main/res/layout/custom_layout_displaystaff.xml" value="0.209375" />
         <entry key="..\:/MoblieApp/app/src/main/res/layout/custom_layout_displaytable.xml" value="0.209375" />
-        <entry key="..\:/MoblieApp/app/src/main/res/layout/displayhome_layout.xml" value="0.1" />
         <entry key="..\:/MoblieApp/app/src/main/res/layout/displaystatistic_layout.xml" value="0.209375" />
         <entry key="..\:/MoblieApp/app/src/main/res/layout/edittable_layout.xml" value="0.1" />
         <entry key="..\:/MoblieApp/app/src/main/res/layout/home_layout.xml" value="0.1" />
-        <entry key="..\:/MoblieApp/app/src/main/res/layout/login_layout.xml" value="0.1" />
         <entry key="..\:/MoblieApp/app/src/main/res/layout/menu_navigation_header.xml" value="0.1" />
         <entry key="..\:/MoblieApp/app/src/main/res/layout/payment_layout.xml" value="0.209375" />
         <entry key="..\:/MoblieApp/app/src/main/res/layout/splash_layout.xml" value="0.20520833333333333" />
@@ -38,12 +35,17 @@
         <entry key="..\:/Users/nosc/StudioProjects/MoblieApp/app/src/main/res/font/bangers.xml" value="0.1" />
         <entry key="..\:/Users/nosc/StudioProjects/MoblieApp/app/src/main/res/font/muli.xml" value="0.1" />
         <entry key="..\:/Users/nosc/StudioProjects/MoblieApp/app/src/main/res/font/muli_black.xml" value="0.23005487547488393" />
+        <entry key="..\:/Users/nosc/StudioProjects/MoblieApp/app/src/main/res/layout/activity_home.xml" value="0.1" />
         <entry key="..\:/Users/nosc/StudioProjects/MoblieApp/app/src/main/res/layout/custom_layout_paymentmenu.xml" value="0.15956482320942883" />
         <entry key="..\:/Users/nosc/StudioProjects/MoblieApp/app/src/main/res/layout/datailstatistic_layout.xml" value="0.20863616930312098" />
         <entry key="..\:/Users/nosc/StudioProjects/MoblieApp/app/src/main/res/layout/detailstatistic_layout.xml" value="0.4" />
+        <entry key="..\:/Users/nosc/StudioProjects/MoblieApp/app/src/main/res/layout/home_layout.xml" value="0.12360688956433637" />
         <entry key="..\:/Users/nosc/StudioProjects/MoblieApp/app/src/main/res/layout/login_layout.xml" value="0.11302083333333333" />
         <entry key="..\:/Users/nosc/StudioProjects/MoblieApp/app/src/main/res/layout/register2nd_layout.xml" value="0.1" />
+        <entry key="..\:/Users/nosc/StudioProjects/MoblieApp/app/src/main/res/layout/register_layout.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/nosc/StudioProjects/MoblieApp/app/src/main/res/layout/welcome_layout.xml" value="0.1" />
+        <entry key="..\:/Users/nosc/StudioProjects/MoblieApp/app/src/main/res/menu/item_menu.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/nosc/StudioProjects/MoblieApp/app/src/main/res/menu/main_menu_navigation.xml" value="0.11302083333333333" />
       </map>
     </option>
   </component>
