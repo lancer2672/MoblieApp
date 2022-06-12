@@ -9,45 +9,41 @@
     android:padding="30dp"
     android:background="@color/white"
     >
-<!--    tools:context=".Activities.WelcomeActivity"-->
     <ImageView
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:layout_gravity="center"
-        android:layout_marginTop="60dp"/>
-<!--        android:src="@drawable/welcome_logo" -->
-
+        android:layout_marginTop="60dp"
+        android:src="@drawable/welcome_logo" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="80dp"
-
+        android:fontFamily="@font/muli_black"
         android:text="@string/function"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="32sp" />
-<!--    android:fontFamily="@font/muli_black"-->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
-
+        android:fontFamily="@font/muli_black"
         android:text="@string/brand_name"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="32sp" />
-<!--    android:fontFamily="@font/muli_black"-->
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="@string/slogan"
-
+        android:fontFamily="@font/muli"
         android:textColor="@color/black" />
-<!--    android:fontFamily="@font/muli"-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -58,33 +54,30 @@
             android:id="@+id/btn_login"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-
+            android:layout_marginRight="10dp"
             android:layout_weight="1"
             android:background="@color/colorPrimary"
             android:text="@string/login"
             android:textColor="@color/black"
             app:backgroundTint="@color/colorPrimary"
-
+            android:onClick="callLoginFromWel"
             android:transitionName="transition_login"
 
             />
-<!--        android:layout_marginRight="10dp"-->
-<!--        android:onClick="callLoginFromWel"-->
-<!--        android:background="@color/colorPrimary"-->
+
         <Button
             android:id="@+id/btn_signup"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-
+            android:layout_marginLeft="10dp"
             android:layout_weight="1"
             android:background="@color/colorPrimary"
             android:text="@string/register"
             android:textColor="@color/black"
             app:backgroundTint="@color/colorPrimary"
-
+            android:onClick="callSignUpFromWel"
             android:transitionName="transition_signup"/>
-<!--        android:layout_marginLeft="10dp"-->
-<!--        android:onClick="callSignUpFromWel"-->
+
     </LinearLayout>
 
     <Button
@@ -96,5 +89,6 @@
         android:textColor="@color/black"
         app:backgroundTint="@color/white"
         style="@style/Widget.AppCompat.Button.Borderless"/>
+
 
 </LinearLayout>
