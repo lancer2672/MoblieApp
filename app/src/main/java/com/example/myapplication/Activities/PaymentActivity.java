@@ -24,7 +24,7 @@ import com.example.myapplication.R;
 
 import java.util.List;
 
-public class PaymentActivity extends AppCompatActivity {
+public class PaymentActivity extends AppCompatActivity implements View.OnClickListener{
     ImageView IMG_payment_backbtn;
     TextView TXT_payment_TenBan, TXT_payment_NgayDat, TXT_payment_TongTien;
     Button BTN_payment_ThanhToan;
