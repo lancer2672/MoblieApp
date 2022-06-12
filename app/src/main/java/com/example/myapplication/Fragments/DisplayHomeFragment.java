@@ -13,6 +13,7 @@ import androidx.fragment.app.FragmentTransaction;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.myapplication.Activities.AddCategoryActivity;
 import com.example.myapplication.Activities.HomeActivity;
 import com.example.myapplication.CustomAdapter.AdapterRecycleViewCategory;
 import com.example.myapplication.CustomAdapter.AdapterRecycleViewStatistic;
