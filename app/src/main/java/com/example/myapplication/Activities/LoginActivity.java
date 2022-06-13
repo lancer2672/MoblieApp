@@ -14,7 +14,6 @@ import android.widget.Toast;
 
 import com.example.myapplication.DAO.NhanVienDAO;
 import com.google.android.material.textfield.TextInputLayout;
-//import com.sinhvien.orderdrinkapp.DAO.NhanVienDAO;
 import com.example.myapplication.R;
 
 public class LoginActivity extends AppCompatActivity {
