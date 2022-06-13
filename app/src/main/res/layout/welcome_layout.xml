@@ -9,12 +9,13 @@
     android:padding="30dp"
     android:background="@color/white"
     >
+
     <ImageView
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:layout_width="257dp"
+        android:layout_height="257dp"
         android:layout_gravity="center"
-        android:layout_marginTop="60dp"
-        android:src="@drawable/welcome_logo" />
+        android:layout_marginTop="30dp"
+        android:src="@drawable/newbie_coffee" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -26,6 +27,7 @@
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="32sp" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
