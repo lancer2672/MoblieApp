@@ -35,6 +35,10 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
     int maquyen = 0;
     SharedPreferences sharedPreferences;
 
+    public int getMaquyen() {
+        return maquyen;
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

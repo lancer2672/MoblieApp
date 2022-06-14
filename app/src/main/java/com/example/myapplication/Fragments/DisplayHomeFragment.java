@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
@@ -128,11 +129,15 @@ public class DisplayHomeFragment    extends Fragment implements View.OnClickList
 
                 break;
             case R.id.layout_displayhome_XemNV:
-                FragmentTransaction tranDisplayStaff= getActivity().getSupportFragmentManager().beginTransaction();
-                tranDisplayStaff.replace(R.id.contentView,new DisplayStaffFragment());
-                tranDisplayStaff.addToBackStack(null);
-                tranDisplayStaff.commit();
-                navigationView.setCheckedItem(R.id.nav_staff);
+                HomeActivity homeAct= (HomeActivity)getActivity();
+                if(homeAct.getMaquyen() == 1)
+                {
+                    FragmentTransaction tranDisplayStaff= getActivity().getSupportFragmentManager().beginTransaction();
+                    tranDisplayStaff.replace(R.id.contentView,new DisplayStaffFragment());
+                    tranDisplayStaff.addToBackStack(null);
+                    tranDisplayStaff.commit();
+                    navigationView.setCheckedItem(R.id.nav_staff);
+                }
 
                 break;
 
