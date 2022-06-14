@@ -5,12 +5,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".Activities.SplashActivity"
-    android:background="@color/colorPrimary">
+    android:background="@drawable/splash">
     <ImageView
         android:id="@+id/imgLogo"
         android:layout_width="408dp"
         android:layout_height="392dp"
-        android:src="@drawable/re_newbie_coffee"
+        android:src="@drawable/re_newbie_coffee_nobackground"
         android:layout_gravity="center|top"
         android:layout_marginTop="30dp"
         />

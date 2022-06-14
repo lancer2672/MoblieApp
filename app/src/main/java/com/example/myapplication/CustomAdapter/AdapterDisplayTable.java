@@ -43,6 +43,7 @@ public class AdapterDisplayTable extends BaseAdapter implements View.OnClickList
     DonDatDAO donDatDAO;
     FragmentManager fragmentManager;
 
+
     public AdapterDisplayTable(Context context, int layout, List<BanAnDTO> banAnDTOList){
         this.context = context;
         this.layout = layout;

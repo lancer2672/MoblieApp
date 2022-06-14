@@ -7,10 +7,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Activities.HomeActivity"
-    tools:openDrawer="start"
+
     android:id="@+id/drawer_layout"
     ><!--tools:openDrawer="start" -->
-
 
     <LinearLayout
         android:orientation="vertical"
@@ -29,12 +28,9 @@
         <FrameLayout
             android:id="@+id/contentView"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            >
-        </FrameLayout>
+            android:layout_height="match_parent"></FrameLayout>
 
     </LinearLayout>
-
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/navigation_view_trangchu"
         android:layout_width="match_parent"
@@ -44,7 +40,4 @@
         android:layout_gravity="start"
         app:headerLayout="@layout/menu_navigation_header"
         app:menu="@menu/main_menu_navigation"/>
-
-
-
 </androidx.drawerlayout.widget.DrawerLayout>
