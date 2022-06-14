@@ -38,11 +38,15 @@
         <entry key="..\:/MoblieApp/app/src/main/res/menu/item_menu.xml" value="0.1" />
         <entry key="..\:/MoblieApp/app/src/main/res/menu/main_menu_navigation.xml" value="0.1" />
         <entry key="..\:/Users/nosc/StudioProjects/MoblieApp/app/src/main/res/drawable/corner_border_black.xml" value="0.2295" />
+        <entry key="..\:/Users/nosc/StudioProjects/MoblieApp/app/src/main/res/drawable/gradient_drawable.xml" value="0.1445" />
         <entry key="..\:/Users/nosc/StudioProjects/MoblieApp/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.1" />
+        <entry key="..\:/Users/nosc/StudioProjects/MoblieApp/app/src/main/res/drawable/round_corner_categorytext.xml" value="0.1445" />
         <entry key="..\:/Users/nosc/StudioProjects/MoblieApp/app/src/main/res/font/bangers.xml" value="0.1" />
         <entry key="..\:/Users/nosc/StudioProjects/MoblieApp/app/src/main/res/font/muli.xml" value="0.1" />
         <entry key="..\:/Users/nosc/StudioProjects/MoblieApp/app/src/main/res/font/muli_black.xml" value="0.23005487547488393" />
         <entry key="..\:/Users/nosc/StudioProjects/MoblieApp/app/src/main/res/layout/activity_home.xml" value="0.1" />
+        <entry key="..\:/Users/nosc/StudioProjects/MoblieApp/app/src/main/res/layout/addcategory_layout.xml" value="0.10461956521739131" />
+        <entry key="..\:/Users/nosc/StudioProjects/MoblieApp/app/src/main/res/layout/custom_layout_displaycategory.xml" value="0.4" />
         <entry key="..\:/Users/nosc/StudioProjects/MoblieApp/app/src/main/res/layout/custom_layout_paymentmenu.xml" value="0.15956482320942883" />
         <entry key="..\:/Users/nosc/StudioProjects/MoblieApp/app/src/main/res/layout/datailstatistic_layout.xml" value="0.20863616930312098" />
         <entry key="..\:/Users/nosc/StudioProjects/MoblieApp/app/src/main/res/layout/detailstatistic_layout.xml" value="0.4" />
